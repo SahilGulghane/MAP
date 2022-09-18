@@ -1,0 +1,56 @@
+map is data structure
+
+map consists of key and value pair . data is called as pair of key and value .
+an key must be uniqe allways while that of value not need to be uniqe
+
+there are three types of map
+1.Hashmap
+this map is used to make key and value pair to it store in random way
+ex : sahil
+key value
+h    1
+i    1
+l    1
+s    1
+a    1
+
+2. LinkedHashmap
+this map is used to store data as same scan from an array
+ex :sahil
+
+key  value
+s    1
+a    1
+h    1
+i    1
+l    1
+
+
+3.Treemap
+this map is used to store keys in sorted(ascending manner) from an array
+
+ex sahil
+
+key  value
+a    1
+h    1
+i    1
+l    1
+s    1
+
+.. create an object of clase in java
+
+
+MAP<data type of key,data type of value > object name = Hashmap<>();
+MAP<data type of key,data type of value > object name = LinkedHashmap<>();
+MAP<data type of key,data type of value > object name = Treemap<>();
+
+
+obeject name . put(location,value);
+to put data
+
+too get value
+variable = map.get(arr[1])
+
+this methodes check weather key contain in table allready if true then it will not enter
+map.containsKey(location])
