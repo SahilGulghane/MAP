@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code hereMa
-         Map<Character,Integer> map =  new LinkedHashMap<>();
+         Map<Character,Integer> map =  new TreeMap<>();
         String  s ="hello my name is sahil and tanisha is my good freind";
         s = s.toUpperCase();
         s = s.replace(" ","");
@@ -38,18 +38,18 @@ public class Main {
     }
 }
 // output
-//           H 3
-//           E 3
-//           L 3
-//           O 3
-//           M 3
-//           Y 3
-//           N 4
-//           A 3
-//           I 4
-//           S 3
-//           D 4
-//           T 1
-//           G 1
-//           F 1
-//           R 1
+//             A 3
+//             D 4
+//             E 3
+//             F 1
+//             G 1
+//             H 3
+//             I 4
+//             L 3
+//             M 3
+//             N 4
+//             O 3
+//             R 1
+//             S 3
+//             T 1
+//             Y 3
